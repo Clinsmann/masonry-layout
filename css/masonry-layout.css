@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+.welcome {
+  padding: 30px 0;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+/*  the styles applied above this line are optional and
+*   are not directly related to *  the masonry lesson */
+
+/* mason layout with pure css */
+.masonry-bricks-container {
+  padding: .4em 0;
+  column-count: 4;
+  column-gap: .5rem;
+}
+
+.masonry-bricks-container img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  break-inside: avoid;
+  margin-bottom: .4rem;
+}
