@@ -6,18 +6,34 @@
 
 html,
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
 }
 
 .welcome {
-  padding: 30px 0;
+  padding: 3rem 0 2rem;
+  font-size: 700;
 }
 
 .container {
   max-width: 80vw;
   margin: 0 auto;
+}
+
+.details {
+  padding: 1rem 1rem;
+  background-color: rgba(241, 99, 52, 0.062);
+  border-radius: .2rem;
+  margin-bottom: .5rem;
+  color: #F16334;
+  border: 1px solid rgba(241, 99, 52, 0.082);
+  line-height: 2;
+}
+
+
+.details a {
+  color: #F16334;
+  text-decoration: none;
 }
 
 /*  the styles applied above this line are optional and
@@ -28,9 +44,11 @@ body {
   padding: .4em 0;
   column-count: 4;
   column-gap: .5rem;
+  margin-bottom: 6rem;
 }
 
-.masonry-bricks-container img {
+.masonry-bricks-container img,
+.masonry-bricks-container div {
   width: 100%;
   height: 100%;
   max-width: 100%;
