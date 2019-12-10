@@ -53,7 +53,7 @@ body {
   height: 100%;
   max-width: 100%;
   object-fit: cover;
-  border-radius: 2px;
+  border-radius: 4px;
   break-inside: avoid;
   margin-bottom: .4rem;
 }
@@ -68,10 +68,9 @@ body {
   .masonry-bricks-container {
     column-count: 2;
   }
-}
 
-@media only screen and (max-width: 460px) {
-  .masonry-bricks-container {
-    column-count: 1;
+  .container {
+    max-width: 100%;
+    padding: .5rem;
   }
 }
