@@ -11,7 +11,7 @@ body {
 }
 
 .welcome {
-  padding: 3rem 0 2rem;
+  padding: 3rem 0 1rem;
   font-size: 700;
 }
 
@@ -44,7 +44,7 @@ body {
   padding: .4em 0;
   column-count: 4;
   column-gap: .5rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .masonry-bricks-container img,
@@ -56,4 +56,22 @@ body {
   border-radius: 2px;
   break-inside: avoid;
   margin-bottom: .4rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .masonry-bricks-container {
+    column-count: 3;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .masonry-bricks-container {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .masonry-bricks-container {
+    column-count: 1;
+  }
 }
